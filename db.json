@@ -1,25 +1,25 @@
 {
-  items: [
+  "items": [
     {
-      name: "Item 1",
-      duration: "10:00",
-      status: 'pending',
-      editingStatus: false,
-      loggingTime: false
+      "name": "Item 1",
+      "duration": "10:00",
+      "status": "pending",
+      "editingStatus": false,
+      "loggingTime": false
     },
     {
-      name: "Item 2",
-      duration: "20:00",
-      status: 'pending',
-      editingStatus: false,
-      loggingTime: false
+      "name": "Item 2",
+      "duration": "20:00",
+      "status": "pending",
+      "editingStatus": false,
+      "loggingTime": false
     },
     {
-      name: "Item 3",
-      duration: "34:10",
-      status: 'pending',
-      editingStatus: false,
-      loggingTime: false
+      "name": "Item 3",
+      "duration": "34:10",
+      "status": "pending",
+      "editingStatus": false,
+      "loggingTime": false
     }
   ]	
 }
