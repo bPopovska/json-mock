@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "id": 1,
       "name": "Item 1",
       "duration": "10:00",
       "status": "pending",
@@ -8,6 +9,7 @@
       "loggingTime": false
     },
     {
+      "id": 2,
       "name": "Item 2",
       "duration": "20:00",
       "status": "pending",
@@ -15,6 +17,7 @@
       "loggingTime": false
     },
     {
+      "id": 3,
       "name": "Item 3",
       "duration": "34:10",
       "status": "pending",
