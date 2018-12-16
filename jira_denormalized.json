@@ -1,0 +1,102 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Task 1",
+      "estimate": "3d",
+      "description": {
+        "id": 2,
+        "name": "Person 2",
+        "role": "Scrum master"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "Person 1",
+        "role": "Developer"
+      },
+      "status": "pending",
+      "timeEntries": [
+        {
+          "id": 1,
+          "task": 1,
+          "timestamp": "20181212T123456",
+          "description": "Worked on this task",
+          "timeLogged": "1d"
+        },
+        {
+          "id": 2,
+          "task": 1,
+          "timestamp": "20181212T123456",
+          "description": "Worked on this task some more",
+          "timeLogged": "2h"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Task 2",
+      "estimate": "1h",
+      "description": "Define this specs",
+      "reporter": {
+        "id": 2,
+        "name": "Person 2",
+        "role": "Scrum master"
+      },
+      "assignee": {
+        "id": 3,
+        "name": "Person 3",
+        "role": "Product owner"
+      },
+      "status": "inprogress",
+      "timeEntries": [
+        {
+          "id": 3,
+          "task": 2,
+          "timestamp": "20181212T123456",
+          "description": "Defined the specs",
+          "timeLogged": "5h"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": 1,
+      "name": "Person 1",
+      "role": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Person 2",
+      "role": "Scrum master"
+    },
+    {
+      "id": 3,
+      "name": "Person 3",
+      "role": "Product owner"
+    }
+  ],
+  "timeLogs": [
+    {
+      "id": 1,
+      "task": 1,
+      "timestamp": "20181212T123456",
+      "description": "Worked on this task",
+      "timeLogged": "1d"
+    },
+    {
+      "id": 2,
+      "task": 1,
+      "timestamp": "20181212T123456",
+      "description": "Worked on this task some more",
+      "timeLogged": "2h"
+    },
+    {
+      "id": 3,
+      "task": 2,
+      "timestamp": "20181212T123456",
+      "description": "Defined the specs",
+      "timeLogged": "5h"
+    }
+  ]
+}

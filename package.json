@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --port 3004",
+    "start:jira": "json-server --watch jira.json --port 3004",
+    "start:jira:denormalized": "json-server --watch jira_denormalized.json --port 3004",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
