@@ -18,17 +18,25 @@
       "timeEntries": [
         {
           "id": 1,
-          "task": 1,
           "timestamp": "20181212T123456",
           "description": "Worked on this task",
-          "timeLogged": "1d"
+          "timeLogged": "1d",
+          "person": {
+            "id": 1,
+            "name": "Person 1",
+            "role": "Developer"
+          }
         },
         {
           "id": 2,
-          "task": 1,
           "timestamp": "20181212T123456",
           "description": "Worked on this task some more",
-          "timeLogged": "2h"
+          "timeLogged": "2h",
+          "person": {
+            "id": 2,
+            "name": "Person 2",
+            "role": "Scrum master"
+          }
         }
       ]
     },
@@ -54,7 +62,12 @@
           "task": 2,
           "timestamp": "20181212T123456",
           "description": "Defined the specs",
-          "timeLogged": "5h"
+          "timeLogged": "5h",
+          "person": {
+            "id": 3,
+            "name": "Person 3",
+            "role": "Product owner"
+          }
         }
       ]
     }
